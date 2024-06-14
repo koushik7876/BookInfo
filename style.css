@@ -133,3 +133,36 @@ body{
 .popup-box textarea:focus{
     outline: none;
 }
+@media screen and (max-width:600px) {
+    .book-container h2{
+        font-size: 20px;
+    }
+    .book-container{
+       width: 52%;
+    }
+    .book-container p{
+        font-size: 10px;
+        
+    }
+    .container{
+        padding-left: 2px;
+        position: relative;
+        left: -3%;
+    }
+    .navbar{
+        background-color: #Fd6569;
+        padding: 7px;
+    }
+    .navbar h1{
+        font-size: 25px;
+    }
+    .popup-box{
+        width: 65%;
+        left: 9%;  
+    }
+    .popup-box textarea{
+        width: 99%;
+        height: 12vh;  
+    }
+}
+
